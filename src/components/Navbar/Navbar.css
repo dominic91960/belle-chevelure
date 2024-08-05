@@ -1,0 +1,13 @@
+/* mobile-drop-down */
+
+@keyframes open-menu {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.animate-open-menu {
+  animation: open-menu 0.5s ease-in-out forwards;
+}

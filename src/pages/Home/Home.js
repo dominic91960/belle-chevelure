@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar";
 import bgIcon from "../../assets/images/Home/LandingSection/bg-icon.png";
 import bgImage from "../../assets/images/Home/LandingSection/background-image.png";
+import Button from "../../components/Button/Button";
 
 const Home = () => {
   return (
@@ -26,9 +27,7 @@ const Home = () => {
           <p className="font-montserrat text-white uppercase text-xl lg:text-2xl xl:text-3xl mt-6 text-center">
             From Inner Radiance to Outer Elegance
           </p>
-          <button className="font-montserrat text-white uppercase text-lg lg:text-xl xl:text-2xl mt-6 bg-black py-1 px-2">
-            <a href="/">make an appointment</a>
-          </button>
+          <Button text="make an appointment" link="/" />
         </div>
       </section>
     </>

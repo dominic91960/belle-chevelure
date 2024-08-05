@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import bgIcon from "../../assets/images/Home/LandingSection/bg-icon.png";
 import bgImage from "../../assets/images/Home/LandingSection/background-image.png";
 import Button from "../../components/Button/Button";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
           <Button text="make an appointment" link="/" />
         </div>
       </section>
+      <Footer />
     </>
   );
 };
